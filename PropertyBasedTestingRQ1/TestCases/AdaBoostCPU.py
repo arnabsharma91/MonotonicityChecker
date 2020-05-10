@@ -1,0 +1,36 @@
+import import_ipynb
+import pandas as pd
+import csv as cv
+import numpy as np
+
+from sklearn.ensemble import AdaBoostClassifier
+
+
+
+def func_main():
+	
+
+	#Reading the dataset
+	df = pd.read_csv('Datasets/CPU.csv') 
+	
+	fileData = open('DataFile.txt', 'w')
+	fileData.write('Datasets/CPU.csv')
+	fileData.close()
+	
+	#Applying monotonicity constraints
+	fileMon = open('monFeature.txt', 'w')
+	fileMon.write('MinMainMem \nMaxMainMem \nCachMem \nMinChan \nMaxChan')
+	fileMon.close()
+
+	data = df.values
+
+	X = data[:, :-1]
+	Y = data[:, -1]
+	model = AdaBoostClassifier(n_estimators=100, random_state=0)
+
+	#Fitting the model with the dataset
+	model = model.fit(X, Y)
+	
+	
+	return model
+
