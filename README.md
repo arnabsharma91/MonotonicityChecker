@@ -6,6 +6,20 @@ Our paper [Higher Income, Larger Loan?Monotonicity Testing of Machine Learning M
 [Heike Wehrheim](https://cs.uni-paderborn.de/index.php?id=70604) & 
 [Arnab Sharma](https://cs.uni-paderborn.de/index.php?id=67148)
 
+
+## Installing required packages
+To install the required software to run our experiments you need to first open the terminal inside this directory and run the following command:
+
+$ pip install -r requirements.txt
+
+This will install all the required packages and software in the current directory automatically.
+
+These steps should install all the required packages to run our code. However, if you still face any problem, you can download any package by using 'pip':
+
+$ pip install <package>
+ 
+ ## Reproducing the results
+
 This repository contains the necessary files and datasets to replicate the results of our paper .
 
 We have used python version 3.6.5. Hence, we request the user to use this python version while using our package. 
@@ -28,18 +42,6 @@ Pruning_Analysis/			-- This folder contains the code and datasets needed to repl
 VerificationBasedTesting		-- This folder contains the code and datasets needed to replicate the results for verification based Testing 						               technique for research questions 1,2,3 in the paper.
 
 IMP: Each of these folder contains a README_LOCAL.txt file which will guide you to run the script for corresponding technique
-
-
-## Installing required packages
-To install the required software to run our experiments you need to first open the terminal inside this directory and run the following command:
-
-$ pip install -r requirements.txt
-
-This will install all the required packages and software in the current directory automatically.
-
-These steps should install all the required packages to run our code. However, if you still face any problem, you can download any package by using 'pip':
-
-$ pip install <package>
  
 
 The scripts will generate some intermediate files and datasets. In the end, the outputs will be stored in the Output folder. 
