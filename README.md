@@ -1,6 +1,12 @@
-# ISSTA2020_Experiment_Replication_Monotonicity
-This repository contains the necessary files and datasets to replicate the results of our paper 'Higher Income, Larger Loan? 
-Monotonicity Testing of Machine Learning Models'.
+# ISSTA2020 Experiment Replication Package for Testing Monotonicity
+Our paper [Higher Income, Larger Loan?Monotonicity Testing of Machine Learning Models](https://conf.researchr.org/track/issta-2020/issta-2020-papers#event-overview) is published in ISSTA 2020. This page contains the replication package to repeat the experiments described in the paper.
+
+
+## Contributors of the paper
+[Heike Wehrheim](https://cs.uni-paderborn.de/index.php?id=70604)
+[Arnab Sharma](https://cs.uni-paderborn.de/index.php?id=67148)
+
+This repository contains the necessary files and datasets to replicate the results of our paper .
 
 We have used python version 3.6.5. Hence, we request the user to use this python version while using our package. 
 
@@ -24,7 +30,7 @@ VerificationBasedTesting		-- This folder contains the code and datasets needed t
 IMP: Each of these folder contains a README_LOCAL.txt file which will guide you to run the script for corresponding technique
 
 
-##Installing required packages
+## Installing required packages
 To install the required software to run our experiments you need to first open the terminal inside this directory and run the following command:
 
 $ pip install -r requirements.txt
@@ -46,4 +52,6 @@ When running the script it will ask you for some inputs like: 1)MAX_SAMPLES limi
 Please note that our approach involves lot of randomness. We try to avoid that by setting the input parameters to fixed values and running our test cases over and over again. Even after that we observed some randomness still persist. 
 
 All the execution times written in output files are in seconds.
+
+
 
