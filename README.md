@@ -3,7 +3,7 @@ Our paper [Higher Income, Larger Loan?Monotonicity Testing of Machine Learning M
 
 
 ## Contributors of the paper
-[Heike Wehrheim](https://cs.uni-paderborn.de/index.php?id=70604)
+[Heike Wehrheim](https://cs.uni-paderborn.de/index.php?id=70604) & 
 [Arnab Sharma](https://cs.uni-paderborn.de/index.php?id=67148)
 
 This repository contains the necessary files and datasets to replicate the results of our paper .
