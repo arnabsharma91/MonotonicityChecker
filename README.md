@@ -10,13 +10,13 @@ Our paper [Higher Income, Larger Loan?Monotonicity Testing of Machine Learning M
 ## Installing required packages
 To install the required software to run our experiments you need to first open the terminal inside this directory and run the following command:
 
-$ pip install -r requirements.txt
+```$ pip install -r requirements.txt```
 
 This will install all the required packages and software in the current directory automatically.
 
 These steps should install all the required packages to run our code. However, if you still face any problem, you can download any package by using 'pip':
 
-$ pip install <package>
+```$ pip install <package>```
  
  ## Reproducing the results
 
