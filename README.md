@@ -3,8 +3,8 @@ Our paper [Higher Income, Larger Loan?Monotonicity Testing of Machine Learning M
 
 
 ## Contributors of the paper
-[Heike Wehrheim](https://cs.uni-paderborn.de/index.php?id=70604) & 
-[Arnab Sharma](https://cs.uni-paderborn.de/index.php?id=67148)
+[Heike Wehrheim](https://en.cs.uni-paderborn.de/sms/team/people/heike-wehrheim) & 
+[Arnab Sharma](https://en.cs.uni-paderborn.de/sms/team/people/arnab-sharma)
 
 
 ## Installing required packages
