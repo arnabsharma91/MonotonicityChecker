@@ -36,7 +36,7 @@ We have given 2 novel strategies for generating multiple counter examples from a
 
 Lastly, to replicate the results for our verification-based testing approach, please follow this [link](https://github.com/arnabsharma91/MonotonicityChecker/tree/master/VerificationBasedTesting).
 
-##IMPORTANT: 
+## IMPORTANT: 
 Each of these folder contains a README_LOCAL.txt file which will guide you through the steps of running the script for corresponding experiment.
  
 
