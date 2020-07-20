@@ -27,25 +27,20 @@ We have used python version 3.6.5. Hence, we request the user to use this python
 We have performed all of our experiments in Windows. However, we have also created a version which can be run in Linux. If you want run our code in Linux use MonotonicityArtifact4Linux.
 
 To run our packages without any problem we strongly recommend you to use anaconda. 
+We have used 2 baseline approaches to compare the results with our verification-based testing approach.
+If you want to check our results for adaptive random testing approach go inside the [AdaptiveRandomTesting](https://github.com/arnabsharma91/MonotonicityChecker/tree/master/AdaptiveRandomTesting) folder and follow the instructions.
 
-This folder contains the following:
+We have used a property based testing tool named [quickCheck](https://pypi.org/project/pytest-quickcheck/) as our another baseline approach. We configured it in 2 ways. For the first case, we just wanted to find out, given a model whether it is monotone or not. Go [here](https://github.com/arnabsharma91/MonotonicityChecker/tree/master/PropertyBasedTestingRQ1) to check out results for this experiment. Next, we tried to look at how many test cases quickCheck needs before it finds a valid failing test cases. Check out this [folder](https://github.com/arnabsharma91/MonotonicityChecker/tree/master/PropertyBasedTestingRQ2) for replicating the results from the paper. 
 
-AdaptiveRandomTesting/	  		-- This folder contains the code and datasets needed to replicate the results for Adaptive Random Testing 						technique
+We have given 2 novel strategies for generating multiple counter examples from a single one. Check out [here](https://github.com/arnabsharma91/MonotonicityChecker/tree/master/Pruning_Analysis) for finding out which strategy wins! 
 
-PropertyBasedTestingRQ1/	  	-- This folder contains the code and datasets needed to replicate the results for Property based Testing 						               technique for research question 1 in the paper. As the settings of quickcheck (property based testing 								tool) are different for two research questions we have 2 seperate folder for property based 								testing.
+Lastly, to replicate the results for our verification-based testing approach, please follow this [link](https://github.com/arnabsharma91/MonotonicityChecker/tree/master/VerificationBasedTesting).
 
-PropertyBasedTestingRQ2/		-- This folder contains the code and datasets needed to replicate the results for Property based Testing 						               technique for research question 2 in the paper.
-
-
-Pruning_Analysis/			-- This folder contains the code and datasets needed to replicate the results for verification based Testing 						               technique for research question 4 in the paper.
-
-VerificationBasedTesting		-- This folder contains the code and datasets needed to replicate the results for verification based Testing 						               technique for research questions 1,2,3 in the paper.
-
-IMP: Each of these folder contains a README_LOCAL.txt file which will guide you to run the script for corresponding technique
+##IMPORTANT: 
+Each of these folder contains a README_LOCAL.txt file which will guide you through the steps of running the script for corresponding experiment.
  
 
-The scripts will generate some intermediate files and datasets. In the end, the outputs will be stored in the Output folder. 
-While running 
+The scripts will generate some intermediate files and datasets. In the end, the outputs will be stored in the Output folder. While running 
 LightGbm algorithm some deprecation warnings might occur. Also, you might see some convergence problems with some ML algorithms.
 This is expected.
 
