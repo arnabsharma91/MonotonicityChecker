@@ -38,7 +38,7 @@ Lastly, to replicate the results for our verification-based testing approach, pl
  
 Each of these folder contains a README_LOCAL.txt file which will guide you through the steps of running the script for corresponding experiment.
  
-# Outputs
+### Outputs
 The scripts will generate some intermediate files and datasets. In the end, the outputs will be stored in the Output folder. While running 
 LightGbm algorithm some deprecation warnings might occur. Also, you might see some convergence problems with some ML algorithms.
 This is expected.
