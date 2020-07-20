@@ -35,11 +35,10 @@ We have used a property based testing tool named [quickCheck](https://pypi.org/p
 We have given 2 novel strategies for generating multiple counter examples from a single one. Check out [here](https://github.com/arnabsharma91/MonotonicityChecker/tree/master/Pruning_Analysis) for finding out which strategy wins! 
 
 Lastly, to replicate the results for our verification-based testing approach, please follow this [link](https://github.com/arnabsharma91/MonotonicityChecker/tree/master/VerificationBasedTesting).
-
-## IMPORTANT: 
+ 
 Each of these folder contains a README_LOCAL.txt file which will guide you through the steps of running the script for corresponding experiment.
  
-
+# Outputs
 The scripts will generate some intermediate files and datasets. In the end, the outputs will be stored in the Output folder. While running 
 LightGbm algorithm some deprecation warnings might occur. Also, you might see some convergence problems with some ML algorithms.
 This is expected.
